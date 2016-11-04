@@ -19,7 +19,9 @@ $query	= mysqli_query($db_link,$sql);
     <td width="176" align="center" valign="middle" bgcolor="#00FFFF">Nama</td>
     <td width="252" align="center" valign="middle" bgcolor="#00FFFF">Alamat</td>
     <td width="134" align="center" valign="middle" bgcolor="#00FFFF">Kelas</td>
-    <td width="133" align="center" valign="middle" bgcolor="#00FFFF"><a href="tambah.php">TAMBAH</a></td></tr>
+    <td width="133" align="center" valign="middle" bgcolor="#00FFFF"><a href="tambah.php">TAMBAH</a></td>
+    <td><a href="logout.php"><button>Log Out</button></a></td>
+  </tr>
 <?php
 	while($data	= mysqli_fetch_array($query)){ 
 ?>

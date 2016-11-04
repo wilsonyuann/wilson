@@ -35,9 +35,10 @@
     <td valign="middle"><label>
       <select name="kelas">
 	  	<option selected="selected">--Pilih--</option>
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
+		<option>Information System</option>
+		<option>Management</option>
+		<option>Law</option>
+    <option>Hospitality</option>
       </select>
     </label></td>
   </tr>
