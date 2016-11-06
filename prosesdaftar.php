@@ -8,7 +8,7 @@
      echo "<div align='center'>Username Sudah Terdaftar! <a href='daftar.php'>Back</a></div>";
    } else {
      if(!$username || !$pass) {
-       echo "<div align='center'>Datanya dilengkapi dulu ya.... Baru bisa :D <a href='daftar.php'>Back</a>";
+       echo "<div align='center'>Datanya kurang lengkap. Mohon di cek kembali.<a href='daftar.php'>Back</a>";
      } else {
        $simpan = mysql_query("INSERT INTO percobaan(username, password) VALUES('$username','$pass')");
        if($simpan) {

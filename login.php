@@ -9,7 +9,7 @@
 <title>Form Login</title>
 <div align='center'>
   <form action="proseslogin.php" method="post">
-  <h1>SELAMAT DATANG BRO!!</h1>
+  <h1>SELAMAT DATANG</h1>
   <table>
   <tbody>
   <tr><td>Username</td><td> : <input name="username" type="text"></td></tr>

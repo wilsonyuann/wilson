@@ -7,7 +7,7 @@
    $cekuser = mysql_query("SELECT * FROM percobaan WHERE username = '$username'");
    $hasil = mysql_fetch_array($cekuser);
    if(mysql_num_rows($cekuser) == 0) {
-     echo "<div align='center'>Daftar dulu bro, HAHA! <a href='login.php'>Back</a></div>";
+     echo "<div align='center'>Silahkan Daftar Terlebih Dahulu. <a href='login.php'>Back</a></div>";
    } else {
      if($pass <> $hasil['password']) {
        echo "<div align='center'>Password salah! <a href='login.php'>Back</a></div>";
