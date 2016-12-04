@@ -1,4 +1,4 @@
-<body bgcolor="#CCCCCC">
+<body style="background-image:url(a7.jpg);background-size:cover"></body>
 <h2><p align="center">TAMBAH DATA</p></h2>
 <form method="post" action="aksi.php">
 <table width="546" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF">

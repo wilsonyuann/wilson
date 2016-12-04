@@ -1,4 +1,4 @@
-<body bgcolor="#CCCCCC">
+<body style="background-image:url(a7.jpg);background-size:cover"></body>
 <h2>
 <p align="center">EDIT DATA
 <?php

@@ -7,7 +7,7 @@ include('koneksi.php');
 <title>Untitled Document</title>
 </head>
 
-<body bgcolor="#CCCCCC">
+<body style="background-image:url(a7.jpg);background-size:cover"></body>
 <?php
 $sql	= 'select * from test';
 $query	= mysqli_query($db_link,$sql);
@@ -48,6 +48,17 @@ $query	= mysqli_query($db_link,$sql);
 <?php
 }
 ?>
+</table>
+<h2><p align="center">Tambah Gambar</p></h2>
+<table width="300" border="1" cellpadding="0" cellspacing="0" align="center">
+<div class="form">
+<form name="uploader" action="process.php" method="POST" enctype="multipart/form-data">
+<tr>
+<td><input type="file" name="file"></td>
+<td><button type="submit">Upload</button></td>
+</tr>
+</form>
+</div>
 </table>
 </body>
 </html>

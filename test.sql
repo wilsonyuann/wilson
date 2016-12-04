@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2016 at 08:55 AM
+-- Generation Time: Dec 04, 2016 at 11:31 AM
 -- Server version: 10.1.8-MariaDB
 -- PHP Version: 5.6.14
 
@@ -38,7 +38,7 @@ CREATE TABLE `test` (
 --
 
 INSERT INTO `test` (`nis`, `nama`, `alamat`, `kelas`) VALUES
-('112233', 'Joko', 'jl.coba no.1 medan', 'mgm');
+('111222', 'jiki', 'Jl. Jikitingting no.1', 'Law');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

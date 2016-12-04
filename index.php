@@ -1,4 +1,4 @@
-<body bgcolor="#CCCCCC">
+<body style="background-image:url(a7.jpg);background-size:cover"></body>
 <?php
 session_start();
 if(!isset($_SESSION['username'])) {

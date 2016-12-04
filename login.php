@@ -1,4 +1,4 @@
-<body bgcolor="#CCCCCC">
+<body style="background-image:url(a7.jpg);background-size:cover"></body>
 <?php
    session_start();
    if(isset($_SESSION['username'])) {
@@ -19,4 +19,11 @@
   </tbody>
   </table>
   </form>
+  <script type="text/javascript">
+  function pemilik() {
+  alert("Semua ini hasil karya : Wilson 00000017037");
+  }
+  </script>
+  <button onclick="pemilik()">Klik Untuk Melihat Pemilik</button><br><br>
+  <a href="json.php"><button>Username dan Password yang sudah terdaftar</button></a>
 </div>
